@@ -1,6 +1,6 @@
-using Netcorext.Configuration.Abstractions.ConfigSections;
+using Netcorext.Configuration.ConfigSections;
 
-namespace Netcorext.Configuration.Abstractions;
+namespace Netcorext.Configuration;
 
 public abstract class Config
 {

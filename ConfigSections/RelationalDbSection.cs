@@ -1,3 +1,3 @@
-namespace Netcorext.Configuration.Abstractions.ConfigSections;
+namespace Netcorext.Configuration.ConfigSections;
 
 public class RelationalDbSection : ConnectionItemSection { }

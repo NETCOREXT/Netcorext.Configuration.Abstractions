@@ -1,6 +1,6 @@
-using Netcorext.Configuration.Abstractions.ConfigSections;
+using Netcorext.Configuration.ConfigSections;
 
-namespace Netcorext.Configuration.Abstractions.Extensions;
+namespace Netcorext.Configuration.Extensions;
 
 public static class DictionaryExtensions
 {
