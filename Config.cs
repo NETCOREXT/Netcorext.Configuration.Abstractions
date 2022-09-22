@@ -10,7 +10,11 @@ public abstract class Config
     public virtual string Id { get; set; }
     public virtual uint MachineId { get; set; }
     public virtual uint DatacenterId { get; set; }
+    public virtual RouteSection Route { get; set; }
+    
+    [Obsolete("Use Document instead.")]
     public virtual string DocumentUrl { get; set; }
+    public virtual DocumentSection Document { get; set; }
 
     public virtual Dictionary<string, OAuthSection> OAuth { get; set; }
     public virtual ConnectionSection Connections { get; set; }
