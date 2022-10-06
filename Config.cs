@@ -5,6 +5,7 @@ namespace Netcorext.Configuration;
 public abstract class Config
 {
     private const string DEFAULT_VERSION = "1.0.0";
+    public const int DEFAULT_DATA_SIZE_LIMIT = 65535;
 
     public virtual string ConfigVersion { get; set; } = DEFAULT_VERSION;
     public virtual string Id { get; set; }
