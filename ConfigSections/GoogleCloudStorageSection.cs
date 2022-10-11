@@ -2,6 +2,7 @@ namespace Netcorext.Configuration.ConfigSections;
 
 public class GoogleCloudStorageSection
 {
-    public Dictionary<string, string> Keys { get; set; }
-    public Dictionary<string, BucketSection> Buckets { get; set; }
+    public string Bucket { get; set; }
+    public string Path { get; set; }
+    public string Secret { get; set; }
 }
