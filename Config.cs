@@ -13,7 +13,7 @@ public abstract class Config
     public virtual uint MachineId { get; set; }
     public virtual uint DatacenterId { get; set; }
     public virtual RouteSection Route { get; set; }
-    
+
     [Obsolete("Use Document instead.")]
     public virtual string DocumentUrl { get; set; }
     public virtual DocumentSection Document { get; set; }
@@ -26,6 +26,8 @@ public abstract class Config
     public virtual Dictionary<string, CacheSection> Caches { get; set; }
     public virtual SmtpSection Smtp { get; set; }
     public virtual SotrageSection Storage { get; set; }
+
+    public virtual HttpLoggingSection HttpLoggingOptions { get; set; }
 }
 
 public abstract class Config<T> : Config
